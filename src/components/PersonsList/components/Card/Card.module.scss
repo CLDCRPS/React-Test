@@ -1,0 +1,25 @@
+.personInfo {
+  position: relative;
+  padding: 5px 30px;
+  width: 420px;
+  height: 83px;
+  background: #f3f3f3;
+  border-radius: 8px;
+}
+
+.personInfo li {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  list-style-type: none;
+  padding: 1px;
+  font-size: 15px;
+}
+
+.personInfo :last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+  

@@ -1,0 +1,26 @@
+.inputAndLabel {
+  margin-left: 40px;
+  position: relative;
+  padding: 17px 0 0;
+  width: 50%;
+}
+
+.inputAndLabel label {
+  top: 0;
+  display: flex;
+  font-size: 13px;
+  font-family: "Segoe UI";
+  font-weight: 600;
+}
+
+.inputAndLabel input {
+  border-radius: 7px;
+  font-family: "Segoe UI";
+  font-size: 1.2rem;
+  cursor: text;
+  padding-left: 5px;
+}
+
+.errorInput {
+  border: 2px solid #d91313;
+}

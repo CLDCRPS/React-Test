@@ -1,0 +1,27 @@
+.personFullInfo {
+  position: relative;
+}
+
+.personFullInfo h2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  margin-bottom: 0.2rem;
+  padding: 15px 30px 0px;
+}
+
+.personFullInfo img {
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  width: 100px;
+  height: 100px;
+  z-index: 9999;
+}
+.changeBtn {
+  right: 0;
+  margin: 24px;
+  width: 200px;
+}

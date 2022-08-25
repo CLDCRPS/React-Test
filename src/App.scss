@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  margin-inline: auto;
+  height: 100%;
+}
+
+@media (min-width: 40em) {
+  grid {
+    grid-template-columns: 15% 85%;
+  }
+}
